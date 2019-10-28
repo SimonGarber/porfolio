@@ -1,17 +1,15 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Vue Portfolio" />
+    <DesktopNav />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import DesktopNav from "./components/DesktopNav.vue";
 
 export default {
-  name: "app",
   components: {
-    HelloWorld
+    DesktopNav
   }
 };
 </script>
